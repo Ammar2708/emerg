@@ -4,7 +4,15 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight, Quote, Star } from "lucide-react";
 
-const testimonials = [
+interface Testimonial {
+  id: number;
+  name: string;
+  location: string;
+  image: string;
+  text: string;
+}
+
+const testimonials: Testimonial[] = [
   {
     id: 1,
     name: "Maria Rodriguez",
@@ -32,28 +40,32 @@ export default function Comments() {
   const [current, setCurrent] = useState(0);
   const [isFading, setIsFading] = useState(false);
 
-  const triggerNext = (index) => {
+  // Added : number to fix the implicitly 'any' type error
+  const triggerNext = (index: number) => {
+    if (isFading) return; // Prevent double-clicks during transition
     setIsFading(true);
     setTimeout(() => {
       setCurrent(index);
       setIsFading(false);
-    }, 3000);
+    }, 300); // Shorter duration for better UX
   };
 
   useEffect(() => {
     const interval = setInterval(() => {
       const next = current === testimonials.length - 1 ? 0 : current + 1;
-      setCurrent(next);
+      triggerNext(next);
     }, 6000);
     return () => clearInterval(interval);
   }, [current]);
 
   const prevSlide = () => {
-    setCurrent(current === 0 ? testimonials.length - 1 : current - 1);
+    const index = current === 0 ? testimonials.length - 1 : current - 1;
+    triggerNext(index);
   };
 
   const nextSlide = () => {
-    setCurrent(current === testimonials.length - 1 ? 0 : current + 1);
+    const index = current === testimonials.length - 1 ? 0 : current + 1;
+    triggerNext(index);
   };
 
   return (
@@ -87,7 +99,7 @@ export default function Comments() {
             </div>
 
             {/* Testimonial Text */}
-            <div className={`transition-opacity duration-500 ${isFading ? 'opacity-0' : 'opacity-100'}`}>
+            <div className={`transition-opacity duration-300 ${isFading ? 'opacity-0' : 'opacity-100'}`}>
               <p className="text-xl md:text-2xl font-medium italic leading-relaxed text-center mb-10 text-gray-700">
                 "{testimonials[current].text}"
               </p>
@@ -131,7 +143,7 @@ export default function Comments() {
             {testimonials.map((_, index) => (
               <button
                 key={index}
-                onClick={() => setCurrent(index)}
+                onClick={() => triggerNext(index)}
                 className={`transition-all duration-500 rounded-full h-2 ${
                   current === index ? "w-10 bg-[#EFAC19]" : "w-2 bg-gray-600 hover:bg-gray-400"
                 }`}
