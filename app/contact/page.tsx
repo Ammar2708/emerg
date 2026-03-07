@@ -5,14 +5,22 @@ import emailjs from '@emailjs/browser';
 import { Phone, Mail, AlertTriangle, Clock, ShieldCheck, Headphones, Loader2 } from "lucide-react"
 
 export default function Page() {
-  const form = useRef();
+  // FIX: Added type <HTMLFormElement> and initial value (null)
+  const form = useRef<HTMLFormElement>(null);
   const [isPending, setIsPending] = useState(false);
 
-  const sendEmail = (e) => {
+  // FIX: Defined the event type for TypeScript
+  const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Safety check: Ensure the form reference is actually linked to the DOM
+    if (!form.current) {
+      alert("Form reference error. Please try again.");
+      return;
+    }
+
     setIsPending(true);
 
-    // Replace the strings below with your actual IDs from EmailJS
     emailjs.sendForm(
       'service_m9c3rsn', 
       'template_z3ea6h1', 
@@ -21,8 +29,9 @@ export default function Page() {
     )
     .then((result) => {
         alert("Request sent successfully! We will contact you shortly.");
-        form.current.reset();
+        form.current?.reset(); // Use optional chaining for safety
     }, (error) => {
+        console.error("EmailJS Error:", error);
         alert("Failed to send request. Please try calling our hotline.");
     })
     .finally(() => setIsPending(false));
@@ -45,7 +54,6 @@ export default function Page() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 max-w-7xl mx-auto">
-        {/* FORM SIDE */}
         <div className="lg:col-span-7 bg-white rounded-[2.5rem] shadow-2xl p-8 sm:p-12 border border-gray-100">
           <div className="mb-10">
             <h2 className="text-3xl font-black text-[#1A1A1A]">Service Request</h2>
@@ -57,22 +65,22 @@ export default function Page() {
               <div className="space-y-2">
                 <label className="text-xs font-bold uppercase tracking-wider text-gray-500 ml-1">Full Name</label>
                 <input
-                  name="user_name" // Variable name for your email template
+                  name="user_name"
                   type="text"
                   required
                   placeholder="John Doe"
-                  className="w-full p-4 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#EFAC19] focus:bg-white transition-all"
+                  className="w-full p-4 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#EFAC19] focus:bg-white transition-all text-black"
                 />
               </div>
 
               <div className="space-y-2">
                 <label className="text-xs font-bold uppercase tracking-wider text-gray-500 ml-1">Phone Number</label>
                 <input
-                  name="user_phone" // Variable name for your email template
+                  name="user_phone"
                   type="text"
                   required
                   placeholder="07xxx xxxxxx"
-                  className="w-full p-4 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#EFAC19] focus:bg-white transition-all"
+                  className="w-full p-4 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#EFAC19] focus:bg-white transition-all text-black"
                 />
               </div>
             </div>
@@ -80,22 +88,22 @@ export default function Page() {
             <div className="space-y-2">
               <label className="text-xs font-bold uppercase tracking-wider text-gray-500 ml-1">Email Address</label>
               <input
-                name="user_email" // Variable name for your email template
+                name="user_email"
                 type="email"
                 required
                 placeholder="name@example.com"
-                className="w-full p-4 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#EFAC19] focus:bg-white transition-all"
+                className="w-full p-4 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#EFAC19] focus:bg-white transition-all text-black"
               />
             </div>
 
             <div className="space-y-2">
               <label className="text-xs font-bold uppercase tracking-wider text-gray-500 ml-1">Nature of Issue</label>
               <textarea
-                name="message" // Variable name for your email template
+                name="message"
                 rows={4}
                 required
                 placeholder="Briefly describe the emergency or electrical work required..."
-                className="w-full p-4 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#EFAC19] focus:bg-white transition-all resize-none"
+                className="w-full p-4 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#EFAC19] focus:bg-white transition-all resize-none text-black"
               />
             </div>
 
@@ -110,7 +118,7 @@ export default function Page() {
           </form>
         </div>
 
-        {/* INFO SIDE (Stayed the same) */}
+        {/* RIGHT SIDE (Stayed the same) */}
         <div className="lg:col-span-5 space-y-6">
           <div className="bg-[#D43947] p-8 rounded-[2.5rem] text-white shadow-2xl relative overflow-hidden group">
             <div className="relative z-10">
