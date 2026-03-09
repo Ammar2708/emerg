@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { ChevronLeft, ChevronRight, Lock } from "lucide-react";
+import { Lock } from "lucide-react";
 
 const paymentMethods = [
   { name: "Visa", logo: "/p1.webp" },
@@ -20,58 +20,36 @@ export default function PaySlider() {
   // Auto-play logic
   useEffect(() => {
     const interval = setInterval(() => {
-      nextSlide();
+      setCurrent((prev) => (prev + 1) % paymentMethods.length);
     }, 2200);
     return () => clearInterval(interval);
-  }, [current]);
-
-  const nextSlide = () => {
-    setCurrent((prev) => (prev + 1) % paymentMethods.length);
-  };
-
-  const prevSlide = () => {
-    setCurrent((prev) => (prev === 0 ? paymentMethods.length - 1 : prev - 1));
-  };
+  }, []);
 
   return (
     <section className="bg-[#F5F6F7] py-20 px-6">
       <div className="max-w-5xl mx-auto">
         
-        {/* Header Section */}
+        {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
           <div className="space-y-2">
             <div className="flex items-center gap-2 text-[#EFAC19] font-bold text-xs uppercase tracking-widest">
               <Lock className="w-4 h-4" /> Secure Transactions
             </div>
-            <h2 className="text-3xl md:text-4xl font-black text-[#1A1A1A]">Accepted Payments</h2>
-          </div>
-          
-          {/* Custom Styled Controls */}
-          <div className="sm:hidden flex gap-3">
-            <button 
-              onClick={prevSlide}
-              className="p-3 rounded-full bg-white shadow-md hover:bg-[#EFAC19] hover:text-white transition-all duration-300"
-            >
-              <ChevronLeft className=" w-5 h-5" />
-            </button>
-            <button 
-              onClick={nextSlide}
-              className="p-3 rounded-full bg-white shadow-md hover:bg-[#EFAC19] hover:text-white transition-all duration-300"
-            >
-              <ChevronRight className="w-5 h-5" />
-            </button>
+            <h2 className="text-3xl md:text-4xl font-black text-[#1A1A1A]">
+              Accepted Payments
+            </h2>
           </div>
         </div>
 
-        {/* The Slider Container */}
+        {/* Slider Container */}
         <div className="relative overflow-hidden rounded-[2.5rem] bg-white p-12 shadow-sm border border-gray-100">
-          <div 
+          <div
             className="flex transition-transform duration-700 ease-in-out"
             style={{ transform: `translateX(-${current * 100}%)` }}
           >
             {paymentMethods.map((method, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="w-full flex-shrink-0 flex flex-col items-center justify-center space-y-4"
               >
                 <div className="relative h-20 w-40">
@@ -89,7 +67,7 @@ export default function PaySlider() {
             ))}
           </div>
 
-          {/* Progress Indicators (Dots) */}
+          {/* Progress Dots */}
           <div className="flex justify-center gap-2 mt-10">
             {paymentMethods.map((_, i) => (
               <button
