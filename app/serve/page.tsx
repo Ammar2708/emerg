@@ -1,8 +1,9 @@
 "use client"
 
-import { MapPin, Clock, Phone, CheckCircle2 } from "lucide-react"
+import { MapPin, Clock, Phone } from "lucide-react"
 
 export default function ServiceArea() {
+  // Array of areas - no type changes needed as TS infers string[]
   const areas = [
     "Balham", "Clapham", "Wandsworth", "Stanwell",
     "Thornton Heath", "Croydon", "Streatham", "Brixton",
@@ -40,11 +41,11 @@ export default function ServiceArea() {
                 Areas We Cover
               </h2>
               
-              {/* Service Areas Grid with Hover Effects */}
+              {/* Service Areas Grid */}
               <div className="grid grid-cols-2 gap-4">
-                {areas.map((area, index) => (
+                {areas.map((area) => (
                   <div 
-                    key={index} 
+                    key={area} // Changed from index to area name for better React reconciliation
                     className="flex items-center gap-3 p-3 rounded-xl border border-gray-50 hover:border-[#EFAC19]/30 hover:bg-[#FDF8EE] transition-all duration-300 group"
                   >
                     <div className="bg-[#EFAC19]/10 p-1.5 rounded-lg group-hover:bg-[#EFAC19] group-hover:text-white transition-colors">
@@ -56,7 +57,7 @@ export default function ServiceArea() {
               </div>
             </div>
 
-            {/* Service Promise Card - Professional Redesign */}
+            {/* Service Promise Card */}
             <div className="bg-[#1B253A] text-white p-8 rounded-[2rem] shadow-xl relative overflow-hidden group">
               <div className="absolute top-[-20%] right-[-10%] w-40 h-40 bg-[#EFAC19] opacity-10 rounded-full blur-3xl"></div>
               
@@ -83,11 +84,11 @@ export default function ServiceArea() {
             </div>
           </div>
 
-          {/* RIGHT SIDE - Google Map */}
+          {/* RIGHT SIDE - Fixed Google Map */}
           <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-white relative min-h-[400px]">
-             {/* Note: Update the 'q=' parameter with your actual business address or 'London+UK' */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.4734000265!2d-0.24168147!3d51.5285582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
+              // Fixed the URL to a standard Google Maps Embed URL
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.1473666065!2d-0.2416815372343619!3d51.52877184048702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
               className="absolute inset-0 w-full h-full grayscale-[0.2] contrast-[1.1]"
               style={{ border: 0 }}
               allowFullScreen

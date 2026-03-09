@@ -67,7 +67,7 @@ const Hero = () => {
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-[#EFAC19] rounded-2xl -z-10 opacity-20 hidden md:block"></div>
               
               <img
-                src="/img1.webp"
+                src="/pic1.png"
                 alt="HS Construction Team at Work"
                 className="w-full h-[400px] md:h-[500px] rounded-[2.5rem] object-cover shadow-2xl border-8 border-white"
               />
