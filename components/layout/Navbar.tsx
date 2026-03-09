@@ -103,7 +103,7 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <a href="tel:+442039733443" className="block pt-4">
+          <a href="tel:02039733443" className="block pt-4">
             <button className="w-full bg-[#EFAC19] text-black font-bold py-4 rounded-xl flex items-center justify-center gap-3 active:scale-95 transition-transform">
               <Phone size={20} className="fill-black" />
               Call Emergency Line

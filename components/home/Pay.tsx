@@ -21,7 +21,7 @@ export default function PaySlider() {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 4000);
+    }, 2200);
     return () => clearInterval(interval);
   }, [current]);
 
@@ -47,12 +47,12 @@ export default function PaySlider() {
           </div>
           
           {/* Custom Styled Controls */}
-          <div className="flex gap-3">
+          <div className="sm:hidden flex gap-3">
             <button 
               onClick={prevSlide}
               className="p-3 rounded-full bg-white shadow-md hover:bg-[#EFAC19] hover:text-white transition-all duration-300"
             >
-              <ChevronLeft className="w-5 h-5" />
+              <ChevronLeft className=" w-5 h-5" />
             </button>
             <button 
               onClick={nextSlide}

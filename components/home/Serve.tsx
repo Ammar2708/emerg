@@ -2,11 +2,12 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { Search, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { services } from "@/data/service";
 
-const page = () => {
+const Page = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const visibleCount = 6; // show 6 cards
 
   const filtered = services.filter((s) =>
     s.title.toLowerCase().includes(searchTerm.toLowerCase())
@@ -24,13 +25,9 @@ const page = () => {
           <div className="w-24 h-2 bg-[#EFAC19] mx-auto rounded-full"></div>
         </div>
 
-        
-        
-
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-
-          {filtered.map((service) => {
+          {filtered.slice(0, visibleCount).map((service) => {
             const Icon = service.icon;
 
             return (
@@ -57,11 +54,23 @@ const page = () => {
               </div>
             );
           })}
-
         </div>
+
+        {/* Show More Button */}
+        {filtered.length > visibleCount && (
+          <div className="text-center mt-12">
+            <Link
+              href="/service" // link to full services page
+              className="px-6 py-3 bg-[#EFAC19] text-white font-bold rounded-full hover:bg-[#d99714] transition inline-flex items-center gap-2"
+            >
+              Show More <ArrowRight size={16} />
+            </Link>
+          </div>
+        )}
+
       </div>
     </div>
   );
 };
 
-export default page;
+export default Page;
