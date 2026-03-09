@@ -133,7 +133,7 @@ export default function Page() {
               </div>
               <h3 className="text-xl font-bold opacity-90 mb-1">Emergency Hotline</h3>
               <p className="text-4xl sm:text-5xl font-black mb-6 tracking-tighter">020 3973 3443</p>
-              <a href="tel:+442039733443" className="block">
+              <a href="tel:02039733443" className="block">
                 <button className="w-full bg-white text-[#D43947] font-black py-4 rounded-xl hover:bg-gray-100 transition-all shadow-lg">
                   TAP TO CALL NOW
                 </button>

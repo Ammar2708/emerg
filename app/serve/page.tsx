@@ -76,7 +76,7 @@ export default function ServiceArea() {
                   Our technicians are strategically stationed throughout London to ensure we reach you in under 45 minutes, 365 days a year.
                 </p>
 
-                <a href="tel:+442039733443" className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full font-bold hover:bg-[#EFAC19] transition-all">
+                <a href="tel:02039733443" className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full font-bold hover:bg-[#EFAC19] transition-all">
                   <Phone size={18} />
                   Check Availability
                 </a>

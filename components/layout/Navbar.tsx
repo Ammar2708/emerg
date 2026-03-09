@@ -65,7 +65,7 @@ const Navbar = () => {
 
           {/* Call Button (Desktop) */}
           <div className="hidden md:block">
-            <a href="tel:+442039733443">
+            <a href="tel:02039733443">
               <button className="group bg-[#EFAC19] hover:bg-white text-black font-bold px-6 py-2.5 rounded-full transition-all duration-300 shadow-lg flex items-center gap-2">
                 <Phone size={18} className="group-hover:animate-bounce fill-black" />
                 <span className="whitespace-nowrap">020 3973 3443</span>
@@ -88,7 +88,7 @@ const Navbar = () => {
 
       {/* Mobile Dropdown */}
       <div 
-        className={`lg:hidden bg-[#1B253A] border-t border-gray-700 overflow-hidden transition-all duration-300 ease-in-out ${
+        className={`lg:hidden bg-[white] border-t border-gray-700 overflow-hidden transition-all duration-300 ease-in-out ${
           menuOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >

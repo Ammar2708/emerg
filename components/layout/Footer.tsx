@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Phone, Mail, MapPin } from "lucide-react";
 
+
 const Footer = () => {
   return (
     <div className="w-full">
@@ -49,8 +50,8 @@ const Footer = () => {
                 { name: "Home", href: "/" },
                 { name: "About", href: "/about" },
                 { name: "Service Area", href: "/serve" },
-                { name: "Electrical Services", href: "#" },
-                { name: "Other Services", href: "#" },
+                { name: "Electrical Services", href: "/service" },
+                { name: "Other Services", href: "/otserve" },
                 { name: "Contact", href: "/contact" },
               ].map((link, i) => (
                 <li key={i}>
@@ -66,27 +67,33 @@ const Footer = () => {
           </div>
 
           {/* Services */}
-          <div>
-            <h3 className="text-lg sm:text-xl text-white font-semibold mb-5">
-              Services
-            </h3>
-            <ul className="space-y-3 text-sm">
-              {[
-                "Rewiring",
-                "Fault Finding",
-                "RCD Tripping",
-                "Fuse Board Replacement",
-                "Electrical Installation Condition Report",
-              ].map((service, i) => (
-                <li
-                  key={i}
-                  className="hover:text-[#EFAC19] transition duration-300 cursor-pointer"
-                >
-                  {service}
-                </li>
-              ))}
-            </ul>
-          </div>
+         <div>
+  <h3 className="text-lg sm:text-xl text-white font-semibold mb-5">
+    Services
+  </h3>
+
+  <ul className="space-y-3 text-sm">
+    {[
+      { name: "Rewiring", slug: "full-rewiring" },
+      { name: "Fault Finding", slug: "electrical-repairs" },
+      { name: "RCD Tripping", slug: "rcd-tripping" },
+      { name: "Fuse Board Replacement", slug: "fuse-board-replacement" },
+      {
+        name: "Electrical Installation Condition Report",
+        slug: "electrical-installations",
+      },
+    ].map((service, j) => (
+      <li key={j}>
+        <Link
+          href={`/service/${service.slug}`}
+          className="hover:text-[#EFAC19] transition duration-300"
+        >
+          {service.name}
+        </Link>
+      </li>
+    ))}
+  </ul>
+</div>
 
           {/* Contact */}
           <div>
@@ -123,7 +130,7 @@ const Footer = () => {
 
             {/* Call Button */}
             <div className="mt-6">
-              <a href="tel:+442039733443">
+              <a href="tel:02039733443">
                 <button className="w-full bg-[#EFAC19] hover:bg-orange-500 text-black font-semibold py-2.5 rounded-full transition duration-300 shadow-md hover:scale-105">
                   Call Now
                 </button>

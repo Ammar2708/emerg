@@ -73,5 +73,27 @@ export const services = [
       "A complete electrical 'heart transplant' for your property. Aging vulcanized rubber or lead-sheathed cables are significant fire risks and cannot handle the load of modern smart appliances. Our full rewiring service replaces all outdated infrastructure with high-grade, fire-retardant cabling and modern RCD-protected consumer units. This not only guarantees the safety of the occupants but also provides the necessary certification to increase your property's market value and pass rigorous home buyer surveys.",
     warranty: "Full System Certification",
     certification: "Complete 18th Edition Rewire"
-  }
+  },
+ {
+  title: "Fuse Board Replacement",
+  slug: "fuse-board-replacement",
+  icon: Plug,
+  img: "/pic6.webp",
+  text: "Upgrade outdated fuse boards with modern safety protection.",
+  description:
+    "Your fuse board (consumer unit) is the control center of your electrical system. Older fuse boards often lack modern safety features such as RCD protection, which increases the risk of electric shock and fire. Our professional fuse board replacement service upgrades your system to a modern 18th Edition compliant consumer unit with advanced circuit protection. This improves safety, reliability, and ensures your electrical installation meets current UK regulations.",
+  warranty: "12-Month Work Guarantee",
+  certification: "18th Edition Consumer Unit Installation"
+},
+{
+  title: "RCD Tripping",
+  slug: "rcd-tripping",
+  icon: Plug,
+  img: "/pic6.webp",
+  text: "Fast diagnosis and repair for frequently tripping RCD circuits.",
+  description:
+    "If your RCD keeps tripping, it usually means there is a fault in your electrical system such as a damaged appliance, faulty wiring, or moisture in circuits. Our qualified electricians quickly diagnose the cause of RCD tripping using professional testing equipment. We identify the faulty circuit or appliance and safely resolve the issue, restoring power and ensuring your electrical system remains fully protected against shocks and electrical fires.",
+  warranty: "12-Month Work Guarantee",
+  certification: "NICEIC Approved Electrical Testing"
+}
 ];
