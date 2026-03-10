@@ -5,6 +5,11 @@ import {
   Home,
   Plug,
   FileCheck,
+  Car,
+  Camera,
+  Thermometer,
+  Waves,
+  PhoneCall,
 } from "lucide-react";
 
 export const services = [
@@ -95,5 +100,73 @@ export const services = [
     "If your RCD keeps tripping, it usually means there is a fault in your electrical system such as a damaged appliance, faulty wiring, or moisture in circuits. Our qualified electricians quickly diagnose the cause of RCD tripping using professional testing equipment. We identify the faulty circuit or appliance and safely resolve the issue, restoring power and ensuring your electrical system remains fully protected against shocks and electrical fires.",
   warranty: "12-Month Work Guarantee",
   certification: "NICEIC Approved Electrical Testing"
-}
+},
+{
+  title: "Electrical Installation Condition Report",
+  slug: "electrical-installation-condition-report",
+  icon: FileCheck,
+  img: "/pic6.webp",
+  text: "Professional EICR testing to assess the safety and condition of your electrical installation.",
+  description:
+    "An Electrical Installation Condition Report (EICR) is a detailed inspection of your property's electrical system to ensure it meets current safety standards. Our NICEIC approved electricians carry out comprehensive testing of wiring, circuits, consumer units, earthing, and electrical connections. We identify potential hazards, deterioration, and non-compliant installations, providing a full report with recommendations for any necessary remedial work. EICR certificates are essential for landlords, property sales, insurance requirements, and ensuring the safety of occupants.",
+  warranty: "Certified Electrical Safety Report",
+  certification: "NICEIC Approved Electrical Inspection & Testing"
+},
+{
+  title: "EV (Electric Vehicle) Charger Installations",
+  slug: "ev-charger-installations",
+  icon: Car,
+  img: "/pic6.webp",
+  text: "Professional installation of home and commercial EV charging points.",
+  description:
+    "We provide safe and professional EV (Electric Vehicle) charger installation for homes, workplaces, and commercial properties. Our qualified electricians assess your electrical system, install dedicated circuits, and ensure the charger is correctly connected to your consumer unit. We install reliable and efficient charging points compatible with all major electric vehicle brands, allowing you to charge your car quickly and safely at your property. All installations are carried out in compliance with current electrical regulations for maximum safety and performance.",
+  warranty: "12-Month Installation Guarantee",
+  certification: "NICEIC Approved EV Charger Installation"
+},
+{
+  title: "CCTV Installation",
+  slug: "cctv-installation",
+  icon: Camera,
+  img: "/pic6.webp",
+  text: "Professional CCTV camera installation to protect your home or business.",
+  description:
+    "We provide professional CCTV installation services for homes, offices, shops, and commercial properties. Our experienced technicians design and install high-quality surveillance systems that allow you to monitor your property 24/7. We install indoor and outdoor security cameras with clear HD recording, remote mobile viewing, motion detection, and secure storage. Our systems help deter intruders, improve safety, and give you complete peace of mind knowing your property is protected at all times.",
+  warranty: "12-Month Installation Guarantee",
+  certification: "Professional Security System Installation"
+},
+{
+  title: "Thermostat Installation",
+  slug: "thermostat-installation",
+  icon: Thermometer,
+  img: "/pic6.webp",
+  text: "Professional thermostat installation to improve comfort and energy efficiency.",
+  description:
+    "We provide professional thermostat installation and replacement services for homes and commercial properties. Our electricians install modern and smart thermostats that allow you to control your heating system more efficiently. Whether you are upgrading to a programmable thermostat or installing a smart thermostat with mobile control, we ensure safe wiring and proper configuration. A properly installed thermostat helps regulate indoor temperature, reduce energy consumption, and improve overall comfort in your property.",
+  warranty: "12-Month Installation Guarantee",
+  certification: "Professional Electrical Heating Control Installation"
+},
+{
+  title: "Electric Underfloor Heating Installations",
+  slug: "electric-underfloor-heating-installations",
+  icon: Waves,
+  img: "/pic6.webp",
+  text: "Efficient electric underfloor heating installation for comfortable and evenly heated spaces.",
+  description:
+    "We provide professional electric underfloor heating installation for homes, bathrooms, kitchens, and commercial properties. Our qualified electricians install reliable heating systems beneath your flooring to deliver consistent and energy-efficient warmth throughout the room. Electric underfloor heating removes the need for bulky radiators, improves heat distribution, and enhances comfort during colder months. We ensure safe electrical connections, proper insulation, and precise thermostat integration for optimal performance and energy efficiency.",
+  warranty: "12-Month Installation Guarantee",
+  certification: "Professional Electric Underfloor Heating Installation"
+},
+{
+  title: "Intercom Installation",
+  slug: "intercom-installation",
+  icon: PhoneCall,
+  img: "/pic6.webp",
+  text: "Professional intercom system installation for secure and convenient communication.",
+  description:
+    "We provide professional intercom installation services for residential buildings, offices, apartments, and commercial properties. Our technicians install modern audio and video intercom systems that allow you to communicate with visitors and control access to your property safely. Whether you need a simple door entry intercom or an advanced video intercom system with mobile connectivity, we ensure reliable wiring, clear communication, and seamless integration with your building's security setup.",
+  warranty: "12-Month Installation Guarantee",
+  certification: "Professional Intercom & Access Control Installation"
+},
+
 ];
+
