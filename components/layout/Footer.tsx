@@ -145,6 +145,12 @@ const Footer = () => {
           All rights reserved.
         </div>
       </footer>
+      <a
+              href="tel:02039733443"
+              className="fixed bottom-6 right-6 bg-[#EFAC19] text-white rounded-full h-16 w-16 flex items-center justify-center shadow-lg hover:scale-110 transition animate-bounce hover:animate-ping hover:bg-[#ff4400]"
+            >
+              <Phone size={28} />
+            </a>
     </div>
   );
 };

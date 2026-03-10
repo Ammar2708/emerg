@@ -1,5 +1,5 @@
 import React from "react";
-import { CheckCircle2, ShieldCheck, Users, Zap } from "lucide-react";
+import { CheckCircle2, ShieldCheck, Users, Zap, Phone } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -81,6 +81,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+     
     </div>
   );
 };

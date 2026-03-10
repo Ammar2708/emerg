@@ -1,8 +1,10 @@
 import React from "react";
+import { Phone } from "lucide-react";
 
 const Hero = () => {
   return (
     <div className="text-white text-center">
+
       <div
         className="relative bg-center bg-cover md:min-h-[90vh] min-h-[70vh] flex flex-col justify-center items-center space-y-5 px-4"
         style={{ backgroundImage: "url(/bg1.webp)" }}
@@ -26,10 +28,10 @@ const Hero = () => {
             transparent pricing and emergency service you can trust.
           </p>
 
-          {/* Button */}
-          <div className=" md:block pt-4">
-            <a href="tel:+1234567890">
-              <button className="font-heading bg-[#EFAC19] hover:bg-[#ff4400] text-black font-semibold px-8 py-3 rounded-full transition duration-300 shadow-lg hover:scale-105">
+          {/* Call Button */}
+          <div className="pt-4">
+            <a href="tel:02039733443">
+              <button className="font-heading bg-[#EFAC19] hover:bg-[#ff4400] text-black font-       semibold px-8 py-3 rounded-full transition duration-300 shadow-lg hover:scale-105">
                 Call Now
               </button>
             </a>
@@ -37,6 +39,10 @@ const Hero = () => {
 
         </div>
       </div>
+
+      
+      
+
     </div>
   );
 };
