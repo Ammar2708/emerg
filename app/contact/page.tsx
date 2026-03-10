@@ -23,7 +23,7 @@ export default function Page() {
 
     emailjs.sendForm(
       'service_m9c3rsn', 
-      'template_z3ea6h1', 
+      'template_5vy3qqk', 
       form.current, 
       '3R2aN4QZ5TNoPtPTP'
     )
