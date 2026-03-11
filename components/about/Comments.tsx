@@ -15,7 +15,7 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Maria Rodriguez",
+    name: "Graham",
     location: "North Hills, London",
     image: "/img2.webp",
     text: `Burst pipe at 2 AM - HS was there quickly and handled everything professionally. Clean work area, explained everything clearly. Highly recommend!`,
