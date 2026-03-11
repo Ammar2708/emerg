@@ -95,7 +95,7 @@ export default async function ServiceDetails({
               "NICEIC Member",
               "Response in < 45 Mins",
               "No Hidden Call-out Fees",
-              "12-Month Work Guarantee"
+              
             ].map((item) => (
               <div key={item} className="flex items-center gap-3 p-5 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
                 <CheckCircle2 className="text-[#EFAC19] shrink-0" size={24} />

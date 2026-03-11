@@ -32,7 +32,7 @@ export const services = [
     text: "New circuits, sockets and lighting installation.",
     description:
       "Precision-engineered electrical installations for modern residential and high-demand commercial environments. We handle everything from complete consumer unit upgrades to dedicated circuits for high-load appliances like EV chargers or electric showers. Our process involves a rigorous load-calculation to ensure your new system is future-proofed and fully compliant with 18th Edition Wiring Regulations. We prioritize clean, efficient installs that minimize structural disruption while maximizing electrical efficiency and safety.",
-    warranty: "12-Month Workmanship Guarantee",
+    
     certification: "NICEIC / Part P Compliant"
   },
   {
@@ -43,8 +43,7 @@ export const services = [
     text: "Rapid fault finding and electrical repairs.",
     description:
       "When power fails, safety is the immediate priority. Our rapid-response repair team utilizes advanced diagnostic equipment, including thermal imaging and circuit tracing, to identify hidden faults—such as degraded insulation, loose neutral connections, or overloaded breakers—that standard visual inspections miss. We provide an immediate diagnostic report and on-the-spot repairs to eliminate fire hazards and restore your property’s power with minimal downtime, available 24 hours a day for true emergencies.",
-    warranty: "Emergency Response Priority",
-    certification: "Certified Fault-Finding Specialist"
+       certification: "Certified Fault-Finding Specialist"
   },
   {
     title: "Lighting Design & Repair",
@@ -54,7 +53,7 @@ export const services = [
     text: "Repair internal and external lighting.",
     description:
       "Expert restoration and optimization of indoor and outdoor lighting systems. We solve complex issues ranging from flickering LED arrays and faulty ballast units to compromised external security lighting systems. Beyond simple repairs, we provide modern energy-efficiency audits, replacing power-hungry legacy fixtures with high-output, low-consumption smart lighting solutions. This not only restores visibility but significantly enhances the security and aesthetic value of your property while lowering utility costs.",
-    warranty: "High-Efficiency LED Guarantee",
+    
     certification: "Internal & External Certified"
   },
   {
@@ -65,7 +64,7 @@ export const services = [
     text: "Install additional power sockets.",
     description:
       "Eliminate the risk of electrical fires caused by overloaded extension leads and 'daisy-chaining.' We provide strategic power-point placement, installing high-specification sockets including integrated USB-C charging ports and heavy-duty 13A outlets for kitchens and workshops. Whether you require flush-mounted finishes for a luxury home or galvanized steel trunking for industrial durability, our installations ensure a balanced load across your ring main to prevent localized overheating and circuit tripping.",
-    warranty: "Flush-Finish Guarantee",
+   
     certification: "Load-Balanced Installation"
   },
   {
@@ -76,7 +75,7 @@ export const services = [
     text: "Portable Appliance Testing services.",
     description:
       "Comprehensive safety compliance for businesses, landlords, and educational facilities. Our Portable Appliance Testing (PAT) goes beyond a simple visual check; we perform earth continuity, insulation resistance, and lead polarity tests to ensure every device is safe for use. Upon completion, you receive a digital asset register and a formal Certificate of Compliance, which is essential for maintaining insurance validity and meeting statutory Health & Safety obligations in the workplace.",
-    warranty: "Full Compliance Documentation",
+   
     certification: "IET Code of Practice Standard"
   },
   {
@@ -87,7 +86,7 @@ export const services = [
     text: "Upgrade outdated wiring systems.",
     description:
       "A complete electrical 'heart transplant' for your property. Aging vulcanized rubber or lead-sheathed cables are significant fire risks and cannot handle the load of modern smart appliances. Our full rewiring service replaces all outdated infrastructure with high-grade, fire-retardant cabling and modern RCD-protected consumer units. This not only guarantees the safety of the occupants but also provides the necessary certification to increase your property's market value and pass rigorous home buyer surveys.",
-    warranty: "Full System Certification",
+   
     certification: "Complete 18th Edition Rewire"
   },
  {
@@ -98,7 +97,7 @@ export const services = [
   text: "Upgrade outdated fuse boards with modern safety protection.",
   description:
     "Your fuse board (consumer unit) is the control center of your electrical system. Older fuse boards often lack modern safety features such as RCD protection, which increases the risk of electric shock and fire. Our professional fuse board replacement service upgrades your system to a modern 18th Edition compliant consumer unit with advanced circuit protection. This improves safety, reliability, and ensures your electrical installation meets current UK regulations.",
-  warranty: "12-Month Work Guarantee",
+ 
   certification: "18th Edition Consumer Unit Installation"
 },
 {
@@ -109,7 +108,7 @@ export const services = [
   text: "Fast diagnosis and repair for frequently tripping RCD circuits.",
   description:
     "If your RCD keeps tripping, it usually means there is a fault in your electrical system such as a damaged appliance, faulty wiring, or moisture in circuits. Our qualified electricians quickly diagnose the cause of RCD tripping using professional testing equipment. We identify the faulty circuit or appliance and safely resolve the issue, restoring power and ensuring your electrical system remains fully protected against shocks and electrical fires.",
-  warranty: "12-Month Work Guarantee",
+  
   certification: "NICEIC Approved Electrical Testing"
 },
 {
@@ -120,7 +119,7 @@ export const services = [
   text: "Professional EICR testing to assess the safety and condition of your electrical installation.",
   description:
     "An Electrical Installation Condition Report (EICR) is a detailed inspection of your property's electrical system to ensure it meets current safety standards. Our NICEIC approved electricians carry out comprehensive testing of wiring, circuits, consumer units, earthing, and electrical connections. We identify potential hazards, deterioration, and non-compliant installations, providing a full report with recommendations for any necessary remedial work. EICR certificates are essential for landlords, property sales, insurance requirements, and ensuring the safety of occupants.",
-  warranty: "Certified Electrical Safety Report",
+ 
   certification: "NICEIC Approved Electrical Inspection & Testing"
 },
 {
@@ -131,7 +130,7 @@ export const services = [
   text: "Professional installation of home and commercial EV charging points.",
   description:
     "We provide safe and professional EV (Electric Vehicle) charger installation for homes, workplaces, and commercial properties. Our qualified electricians assess your electrical system, install dedicated circuits, and ensure the charger is correctly connected to your consumer unit. We install reliable and efficient charging points compatible with all major electric vehicle brands, allowing you to charge your car quickly and safely at your property. All installations are carried out in compliance with current electrical regulations for maximum safety and performance.",
-  warranty: "12-Month Installation Guarantee",
+  
   certification: "NICEIC Approved EV Charger Installation"
 },
 {
@@ -142,7 +141,7 @@ export const services = [
   text: "Professional CCTV camera installation to protect your home or business.",
   description:
     "We provide professional CCTV installation services for homes, offices, shops, and commercial properties. Our experienced technicians design and install high-quality surveillance systems that allow you to monitor your property 24/7. We install indoor and outdoor security cameras with clear HD recording, remote mobile viewing, motion detection, and secure storage. Our systems help deter intruders, improve safety, and give you complete peace of mind knowing your property is protected at all times.",
-  warranty: "12-Month Installation Guarantee",
+  
   certification: "Professional Security System Installation"
 },
 {
@@ -153,7 +152,7 @@ export const services = [
   text: "Professional thermostat installation to improve comfort and energy efficiency.",
   description:
     "We provide professional thermostat installation and replacement services for homes and commercial properties. Our electricians install modern and smart thermostats that allow you to control your heating system more efficiently. Whether you are upgrading to a programmable thermostat or installing a smart thermostat with mobile control, we ensure safe wiring and proper configuration. A properly installed thermostat helps regulate indoor temperature, reduce energy consumption, and improve overall comfort in your property.",
-  warranty: "12-Month Installation Guarantee",
+  
   certification: "Professional Electrical Heating Control Installation"
 },
 {
@@ -164,7 +163,7 @@ export const services = [
   text: "Efficient electric underfloor heating installation for comfortable and evenly heated spaces.",
   description:
     "We provide professional electric underfloor heating installation for homes, bathrooms, kitchens, and commercial properties. Our qualified electricians install reliable heating systems beneath your flooring to deliver consistent and energy-efficient warmth throughout the room. Electric underfloor heating removes the need for bulky radiators, improves heat distribution, and enhances comfort during colder months. We ensure safe electrical connections, proper insulation, and precise thermostat integration for optimal performance and energy efficiency.",
-  warranty: "12-Month Installation Guarantee",
+ 
   certification: "Professional Electric Underfloor Heating Installation"
 },
 {
@@ -175,7 +174,7 @@ export const services = [
   text: "Professional intercom system installation for secure and convenient communication.",
   description:
     "We provide professional intercom installation services for residential buildings, offices, apartments, and commercial properties. Our technicians install modern audio and video intercom systems that allow you to communicate with visitors and control access to your property safely. Whether you need a simple door entry intercom or an advanced video intercom system with mobile connectivity, we ensure reliable wiring, clear communication, and seamless integration with your building's security setup.",
-  warranty: "12-Month Installation Guarantee",
+ 
   certification: "Professional Intercom & Access Control Installation"
 },
 {
@@ -186,7 +185,7 @@ export const services = [
   text: "Expert circuit breaker repair to restore safe and reliable power in your property.",
   description:
     "We provide professional circuit breaker repair services for homes, apartments, and commercial properties. Our electricians diagnose and repair faulty breakers, tripping circuits, and damaged wiring to ensure your electrical system operates safely.",
-  warranty: "12-Month Repair Guarantee",
+  
   certification: "Certified Electrical Troubleshooting & Breaker Repair"
 },
 {
@@ -197,7 +196,7 @@ export const services = [
   text: "Professional ceiling fan installation for improved comfort and energy efficiency.",
   description:
     "We offer safe and professional ceiling fan installation services ensuring secure mounting, proper wiring, and smooth operation.",
-  warranty: "12-Month Installation Guarantee",
+  
   certification: "Professional Electrical Fixture Installation"
 },
 {
@@ -208,7 +207,7 @@ export const services = [
   text: "Fast diagnosis and repair for power loss in specific areas of your home.",
   description:
     "Our electricians identify wiring issues, tripped breakers, or damaged circuits and restore power safely.",
-  warranty: "12-Month Repair Guarantee",
+  
   certification: "Certified Electrical Fault Diagnosis"
 },
 {
@@ -219,7 +218,7 @@ export const services = [
   text: "Reliable repair for flickering or unstable lighting in your home or office.",
   description:
     "We inspect wiring, switches, and circuits to eliminate flickering lights and restore stable illumination.",
-  warranty: "12-Month Repair Guarantee",
+  
   certification: "Professional Electrical Lighting Repair"
 },
 {
@@ -230,7 +229,7 @@ export const services = [
   text: "Professional solutions for overloaded circuits and frequently tripping breakers.",
   description:
     "Our electricians analyze electrical load and provide solutions like circuit balancing or breaker replacement.",
-  warranty: "12-Month Repair Guarantee",
+ 
   certification: "Certified Electrical Load Management"
 },
 {
@@ -241,7 +240,7 @@ export const services = [
   text: "Expert electrical panel repair to maintain safe power distribution.",
   description:
     "We repair damaged panels, faulty breakers, and loose connections to ensure safe electricity flow.",
-  warranty: "12-Month Repair Guarantee",
+  
   certification: "Professional Electrical Panel Service"
 },
 {
@@ -252,7 +251,7 @@ export const services = [
   text: "Upgrade your lighting to energy-efficient LED solutions for better brightness and lower power bills.",
   description:
     "We replace outdated lighting with modern LED systems that save energy and improve brightness.",
-  warranty: "12-Month Installation Guarantee",
+  
   certification: "Certified LED Lighting Installation"
 },
 {
@@ -263,7 +262,7 @@ export const services = [
   text: "Professional smoke detector installation to improve safety and early fire detection.",
   description:
     "Our technicians install and wire smoke detectors correctly to ensure reliable fire detection.",
-  warranty: "12-Month Installation Guarantee",
+  
   certification: "Professional Fire Safety Device Installation"
 },
 {
@@ -274,7 +273,7 @@ export const services = [
   text: "Install modern dimmer switches to control lighting brightness and create the perfect ambiance.",
   description:
     "Dimmer switches allow flexible lighting control and help reduce energy consumption.",
-  warranty: "12-Month Installation Guarantee",
+  
   certification: "Certified Lighting Control Installation"
 },
 {
@@ -285,7 +284,7 @@ export const services = [
   text: "Comprehensive annual electrical inspections to keep your property safe and compliant.",
   description:
     "We inspect wiring, panels, outlets, and breakers to identify potential electrical hazards early.",
-  warranty: "12-Month Inspection Assurance",
+  
   certification: "Certified Electrical Safety Inspection"
 },
 {
@@ -296,7 +295,7 @@ export const services = [
   text: "Professional emergency lighting installation to ensure safety during power outages.",
   description:
     "Emergency lighting systems automatically activate during outages to help occupants safely exit buildings.",
-  warranty: "12-Month Installation Guarantee",
+ 
   certification: "Professional Emergency Lighting Installation"
 },
 {
@@ -307,7 +306,7 @@ export const services = [
   text: "Fast troubleshooting and repair for unexpected power outages in your home or business.",
   description:
     "We diagnose electrical failures and restore power quickly and safely.",
-  warranty: "12-Month Repair Guarantee",
+ 
   certification: "Certified Electrical Fault Diagnosis"
 }
 ];
