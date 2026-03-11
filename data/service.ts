@@ -10,6 +10,17 @@ import {
   Thermometer,
   Waves,
   PhoneCall,
+  Zap,
+  Fan,
+  Power,
+  AlertTriangle,
+  PanelTop,
+  Lamp,
+  Siren,
+  ToggleLeft,
+  ClipboardCheck,
+  ShieldAlert,
+  PlugZap
 } from "lucide-react";
 
 export const services = [
@@ -102,7 +113,7 @@ export const services = [
   certification: "NICEIC Approved Electrical Testing"
 },
 {
-  title: "Electrical Installation Condition Report",
+  title: "EICR (Electrical Installation Condition Report)",
   slug: "electrical-installation-condition-report",
   icon: FileCheck,
   img: "/pic6.webp",
@@ -167,6 +178,137 @@ export const services = [
   warranty: "12-Month Installation Guarantee",
   certification: "Professional Intercom & Access Control Installation"
 },
-
+{
+  title: "Circuit Breaker Repair",
+  slug: "circuit-breaker-repair",
+  icon: Zap,
+  img: "/pic6.webp",
+  text: "Expert circuit breaker repair to restore safe and reliable power in your property.",
+  description:
+    "We provide professional circuit breaker repair services for homes, apartments, and commercial properties. Our electricians diagnose and repair faulty breakers, tripping circuits, and damaged wiring to ensure your electrical system operates safely.",
+  warranty: "12-Month Repair Guarantee",
+  certification: "Certified Electrical Troubleshooting & Breaker Repair"
+},
+{
+  title: "Ceiling Fan Installation",
+  slug: "ceiling-fan-installation",
+  icon: Fan,
+  img: "/pic6.webp",
+  text: "Professional ceiling fan installation for improved comfort and energy efficiency.",
+  description:
+    "We offer safe and professional ceiling fan installation services ensuring secure mounting, proper wiring, and smooth operation.",
+  warranty: "12-Month Installation Guarantee",
+  certification: "Professional Electrical Fixture Installation"
+},
+{
+  title: "No Power in Part of House",
+  slug: "partial-power-outage-repair",
+  icon: Power,
+  img: "/pic6.webp",
+  text: "Fast diagnosis and repair for power loss in specific areas of your home.",
+  description:
+    "Our electricians identify wiring issues, tripped breakers, or damaged circuits and restore power safely.",
+  warranty: "12-Month Repair Guarantee",
+  certification: "Certified Electrical Fault Diagnosis"
+},
+{
+  title: "Flickering Lights",
+  slug: "flickering-lights-repair",
+  icon: Lightbulb,
+  img: "/pic6.webp",
+  text: "Reliable repair for flickering or unstable lighting in your home or office.",
+  description:
+    "We inspect wiring, switches, and circuits to eliminate flickering lights and restore stable illumination.",
+  warranty: "12-Month Repair Guarantee",
+  certification: "Professional Electrical Lighting Repair"
+},
+{
+  title: "Overloaded Circuit Breakers",
+  slug: "overloaded-circuit-breaker-repair",
+  icon: AlertTriangle,
+  img: "/pic6.webp",
+  text: "Professional solutions for overloaded circuits and frequently tripping breakers.",
+  description:
+    "Our electricians analyze electrical load and provide solutions like circuit balancing or breaker replacement.",
+  warranty: "12-Month Repair Guarantee",
+  certification: "Certified Electrical Load Management"
+},
+{
+  title: "Electrical Panel Repair",
+  slug: "electrical-panel-repair",
+  icon: PanelTop,
+  img: "/pic6.webp",
+  text: "Expert electrical panel repair to maintain safe power distribution.",
+  description:
+    "We repair damaged panels, faulty breakers, and loose connections to ensure safe electricity flow.",
+  warranty: "12-Month Repair Guarantee",
+  certification: "Professional Electrical Panel Service"
+},
+{
+  title: "LED Upgrade",
+  slug: "led-upgrade",
+  icon: Lamp,
+  img: "/pic6.webp",
+  text: "Upgrade your lighting to energy-efficient LED solutions for better brightness and lower power bills.",
+  description:
+    "We replace outdated lighting with modern LED systems that save energy and improve brightness.",
+  warranty: "12-Month Installation Guarantee",
+  certification: "Certified LED Lighting Installation"
+},
+{
+  title: "Smoke Detector Installation",
+  slug: "smoke-detector-installation",
+  icon: Siren,
+  img: "/pic6.webp",
+  text: "Professional smoke detector installation to improve safety and early fire detection.",
+  description:
+    "Our technicians install and wire smoke detectors correctly to ensure reliable fire detection.",
+  warranty: "12-Month Installation Guarantee",
+  certification: "Professional Fire Safety Device Installation"
+},
+{
+  title: "Dimmer Switches",
+  slug: "dimmer-switch-installation",
+  icon: ToggleLeft,
+  img: "/pic6.webp",
+  text: "Install modern dimmer switches to control lighting brightness and create the perfect ambiance.",
+  description:
+    "Dimmer switches allow flexible lighting control and help reduce energy consumption.",
+  warranty: "12-Month Installation Guarantee",
+  certification: "Certified Lighting Control Installation"
+},
+{
+  title: "Annual Electrical Inspection",
+  slug: "annual-electrical-inspection",
+  icon: ClipboardCheck,
+  img: "/pic6.webp",
+  text: "Comprehensive annual electrical inspections to keep your property safe and compliant.",
+  description:
+    "We inspect wiring, panels, outlets, and breakers to identify potential electrical hazards early.",
+  warranty: "12-Month Inspection Assurance",
+  certification: "Certified Electrical Safety Inspection"
+},
+{
+  title: "Emergency Lighting Installation",
+  slug: "emergency-lighting-installation",
+  icon: ShieldAlert,
+  img: "/pic6.webp",
+  text: "Professional emergency lighting installation to ensure safety during power outages.",
+  description:
+    "Emergency lighting systems automatically activate during outages to help occupants safely exit buildings.",
+  warranty: "12-Month Installation Guarantee",
+  certification: "Professional Emergency Lighting Installation"
+},
+{
+  title: "Power Outage",
+  slug: "power-outage-repair",
+  icon: PlugZap,
+  img: "/pic6.webp",
+  text: "Fast troubleshooting and repair for unexpected power outages in your home or business.",
+  description:
+    "We diagnose electrical failures and restore power quickly and safely.",
+  warranty: "12-Month Repair Guarantee",
+  certification: "Certified Electrical Fault Diagnosis"
+}
 ];
 
