@@ -9,12 +9,19 @@ export default function ServiceArea() {
 
   // Service areas
   const areas = [
+    "Barnet", "Merton", "Sutton","Barking & Dagenham",
+    "Barnet", "Bexly", "Brent", "Bromley", "Camden",
+    "City of London", "Croydon", "Ealing", "Enfield",
+    "Greenwich", "Haringey", "Harrow", "Havering", "Hillingdon",
+    "Hounslow", "Islington", "Kensington and Chelsea", "Kingston upon Thames",
+    "Lambeth", "Lewisham", "Merton", "Newham", "Redbridge", "Sutton",
+    "Southwark", "Tower Hamlets", "Waltham Forest", "weybridge", "Westminster",
     "Balham", "Clapham", "Wandsworth", "Stanwell",
     "Thornton Heath", "Croydon", "Streatham", "Brixton",
     "Battersea", "Putney", "Wimbledon", "Richmond",
     "Kingston", "Chelsea", "Fulham", "Kensington",
-    "Chelmsford", "Harrow", "Action", "Fulham", "Tooting",
-    "Barnet", "Merton", "Sutton",
+     "Harrow", "Action", "Fulham", "Tooting",
+     
   ]
 
   // Function to open directions from office → selected area
