@@ -92,7 +92,7 @@ export const otherServices = [
     title: "NICEIC Installers",
     slug: "niceic-installers",
     icon: HardHat,
-    img: "/niceic.webp",
+    img: "/et7.webp",
     text: "Accredited electrical installations to UK standards.",
     description: "Verified electrical works performed by Platinum-level NICEIC contractors. This ensures all work is self-certified to Part P of the Building Regulations and is covered by the NICEIC Platinum Promise, giving you total peace of mind that your installation meets the highest safety benchmarks in the UK.",
     

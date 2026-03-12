@@ -27,8 +27,8 @@ const Navbar = () => {
           </span>
         </div>
         <div className="flex items-center gap-4">
-          <a href="mailto:info@hsconstructionandelectrical.co.uk" className="hover:text-white transition">
-            info@hsconstructionandelectrical.co.uk
+          <a href="mailto:info@hscaeltd.co.uk" className="hover:text-white transition">
+            info@hscaeltd.co.uk
           </a>
         </div>
       </div>

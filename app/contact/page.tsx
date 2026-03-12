@@ -153,7 +153,7 @@ export default function Page() {
                 <Mail className="text-[#EFAC19] mt-1 shrink-0" />
                 <div>
                   <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Email Us</p>
-                  <p className="text-sm sm:text-base font-medium break-all">info@hsconstructionandelectrical.co.uk</p>
+                  <p className="text-sm sm:text-base font-medium break-all">info@hscaeltd.co.uk</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">

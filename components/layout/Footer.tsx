@@ -112,11 +112,11 @@ const Footer = () => {
               </a>
 
               <a
-                href="mailto:info@hsconstructionandelectrical.co.uk"
+                href="mailto:info@hscaeltd.co.uk"
                 className="flex items-center gap-3 hover:text-[#EFAC19] transition break-all"
               >
                 <Mail size={18} className="text-[#EFAC19]" />
-                info@hsconstructionandelectrical.co.uk
+                info@hscaeltd.co.uk
               </a>
 
               <div className="flex items-start gap-3">

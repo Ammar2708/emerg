@@ -39,7 +39,7 @@ export const services = [
     title: "Electrical Repairs & Fault Finding",
     slug: "electrical-repairs",
     icon: Settings,
-    img: "/pic2.webp",
+    img: "et9.webp",
     text: "Rapid fault finding and electrical repairs.",
     description:
       "When power fails, safety is the immediate priority. Our rapid-response repair team utilizes advanced diagnostic equipment, including thermal imaging and circuit tracing, to identify hidden faults—such as degraded insulation, loose neutral connections, or overloaded breakers—that standard visual inspections miss. We provide an immediate diagnostic report and on-the-spot repairs to eliminate fire hazards and restore your property’s power with minimal downtime, available 24 hours a day for true emergencies.",
@@ -49,7 +49,7 @@ export const services = [
     title: "Lighting Design & Repair",
     slug: "lighting-repair",
     icon: Lightbulb,
-    img: "/pic3.webp",
+    img: "/et1.webp",
     text: "Repair internal and external lighting.",
     description:
       "Expert restoration and optimization of indoor and outdoor lighting systems. We solve complex issues ranging from flickering LED arrays and faulty ballast units to compromised external security lighting systems. Beyond simple repairs, we provide modern energy-efficiency audits, replacing power-hungry legacy fixtures with high-output, low-consumption smart lighting solutions. This not only restores visibility but significantly enhances the security and aesthetic value of your property while lowering utility costs.",
@@ -60,7 +60,7 @@ export const services = [
     title: "Power Socket Solutions",
     slug: "sockets",
     icon: Plug,
-    img: "/pic4.webp",
+    img: "/et2.webp",
     text: "Install additional power sockets.",
     description:
       "Eliminate the risk of electrical fires caused by overloaded extension leads and 'daisy-chaining.' We provide strategic power-point placement, installing high-specification sockets including integrated USB-C charging ports and heavy-duty 13A outlets for kitchens and workshops. Whether you require flush-mounted finishes for a luxury home or galvanized steel trunking for industrial durability, our installations ensure a balanced load across your ring main to prevent localized overheating and circuit tripping.",
@@ -71,7 +71,7 @@ export const services = [
     title: "Professional PAT Testing",
     slug: "pat-testing",
     icon: FileCheck,
-    img: "/pic5.webp",
+    img: "/et3.webp",
     text: "Portable Appliance Testing services.",
     description:
       "Comprehensive safety compliance for businesses, landlords, and educational facilities. Our Portable Appliance Testing (PAT) goes beyond a simple visual check; we perform earth continuity, insulation resistance, and lead polarity tests to ensure every device is safe for use. Upon completion, you receive a digital asset register and a formal Certificate of Compliance, which is essential for maintaining insurance validity and meeting statutory Health & Safety obligations in the workplace.",
@@ -82,7 +82,7 @@ export const services = [
     title: "Full Property Rewiring",
     slug: "full-rewiring",
     icon: Home,
-    img: "/pic6.webp",
+    img: "/et4.webp",
     text: "Upgrade outdated wiring systems.",
     description:
       "A complete electrical 'heart transplant' for your property. Aging vulcanized rubber or lead-sheathed cables are significant fire risks and cannot handle the load of modern smart appliances. Our full rewiring service replaces all outdated infrastructure with high-grade, fire-retardant cabling and modern RCD-protected consumer units. This not only guarantees the safety of the occupants but also provides the necessary certification to increase your property's market value and pass rigorous home buyer surveys.",
@@ -93,7 +93,7 @@ export const services = [
   title: "Fuse Board Replacement",
   slug: "fuse-board-replacement",
   icon: Plug,
-  img: "/pic6.webp",
+  img: "/et5.webp",
   text: "Upgrade outdated fuse boards with modern safety protection.",
   description:
     "Your fuse board (consumer unit) is the control center of your electrical system. Older fuse boards often lack modern safety features such as RCD protection, which increases the risk of electric shock and fire. Our professional fuse board replacement service upgrades your system to a modern 18th Edition compliant consumer unit with advanced circuit protection. This improves safety, reliability, and ensures your electrical installation meets current UK regulations.",
@@ -104,7 +104,7 @@ export const services = [
   title: "RCD Tripping",
   slug: "rcd-tripping",
   icon: Plug,
-  img: "/pic6.webp",
+  img: "/et6.webp",
   text: "Fast diagnosis and repair for frequently tripping RCD circuits.",
   description:
     "If your RCD keeps tripping, it usually means there is a fault in your electrical system such as a damaged appliance, faulty wiring, or moisture in circuits. Our qualified electricians quickly diagnose the cause of RCD tripping using professional testing equipment. We identify the faulty circuit or appliance and safely resolve the issue, restoring power and ensuring your electrical system remains fully protected against shocks and electrical fires.",
@@ -115,7 +115,7 @@ export const services = [
   title: "EICR (Electrical Installation Condition Report)",
   slug: "electrical-installation-condition-report",
   icon: FileCheck,
-  img: "/pic6.webp",
+  img: "/et7.webp",
   text: "Professional EICR testing to assess the safety and condition of your electrical installation.",
   description:
     "An Electrical Installation Condition Report (EICR) is a detailed inspection of your property's electrical system to ensure it meets current safety standards. Our NICEIC approved electricians carry out comprehensive testing of wiring, circuits, consumer units, earthing, and electrical connections. We identify potential hazards, deterioration, and non-compliant installations, providing a full report with recommendations for any necessary remedial work. EICR certificates are essential for landlords, property sales, insurance requirements, and ensuring the safety of occupants.",
@@ -126,7 +126,7 @@ export const services = [
   title: "EV (Electric Vehicle) Charger Installations",
   slug: "ev-charger-installations",
   icon: Car,
-  img: "/pic6.webp",
+  img: "/et8.webp",
   text: "Professional installation of home and commercial EV charging points.",
   description:
     "We provide safe and professional EV (Electric Vehicle) charger installation for homes, workplaces, and commercial properties. Our qualified electricians assess your electrical system, install dedicated circuits, and ensure the charger is correctly connected to your consumer unit. We install reliable and efficient charging points compatible with all major electric vehicle brands, allowing you to charge your car quickly and safely at your property. All installations are carried out in compliance with current electrical regulations for maximum safety and performance.",
@@ -137,7 +137,7 @@ export const services = [
   title: "CCTV Installation",
   slug: "cctv-installation",
   icon: Camera,
-  img: "/pic6.webp",
+  img: "/ot2.webp",
   text: "Professional CCTV camera installation to protect your home or business.",
   description:
     "We provide professional CCTV installation services for homes, offices, shops, and commercial properties. Our experienced technicians design and install high-quality surveillance systems that allow you to monitor your property 24/7. We install indoor and outdoor security cameras with clear HD recording, remote mobile viewing, motion detection, and secure storage. Our systems help deter intruders, improve safety, and give you complete peace of mind knowing your property is protected at all times.",
@@ -148,7 +148,7 @@ export const services = [
   title: "Thermostat Installation",
   slug: "thermostat-installation",
   icon: Thermometer,
-  img: "/pic6.webp",
+  img: "/et10.webp",
   text: "Professional thermostat installation to improve comfort and energy efficiency.",
   description:
     "We provide professional thermostat installation and replacement services for homes and commercial properties. Our electricians install modern and smart thermostats that allow you to control your heating system more efficiently. Whether you are upgrading to a programmable thermostat or installing a smart thermostat with mobile control, we ensure safe wiring and proper configuration. A properly installed thermostat helps regulate indoor temperature, reduce energy consumption, and improve overall comfort in your property.",
@@ -159,7 +159,7 @@ export const services = [
   title: "Electric Underfloor Heating Installations",
   slug: "electric-underfloor-heating-installations",
   icon: Waves,
-  img: "/pic6.webp",
+  img: "/e11.webp",
   text: "Efficient electric underfloor heating installation for comfortable and evenly heated spaces.",
   description:
     "We provide professional electric underfloor heating installation for homes, bathrooms, kitchens, and commercial properties. Our qualified electricians install reliable heating systems beneath your flooring to deliver consistent and energy-efficient warmth throughout the room. Electric underfloor heating removes the need for bulky radiators, improves heat distribution, and enhances comfort during colder months. We ensure safe electrical connections, proper insulation, and precise thermostat integration for optimal performance and energy efficiency.",
@@ -170,7 +170,7 @@ export const services = [
   title: "Intercom Installation",
   slug: "intercom-installation",
   icon: PhoneCall,
-  img: "/pic6.webp",
+  img: "/et11.webp",
   text: "Professional intercom system installation for secure and convenient communication.",
   description:
     "We provide professional intercom installation services for residential buildings, offices, apartments, and commercial properties. Our technicians install modern audio and video intercom systems that allow you to communicate with visitors and control access to your property safely. Whether you need a simple door entry intercom or an advanced video intercom system with mobile connectivity, we ensure reliable wiring, clear communication, and seamless integration with your building's security setup.",
@@ -181,7 +181,7 @@ export const services = [
   title: "Circuit Breaker Repair",
   slug: "circuit-breaker-repair",
   icon: Zap,
-  img: "/pic6.webp",
+  img: "/et5.webp",
   text: "Expert circuit breaker repair to restore safe and reliable power in your property.",
   description:
     "We provide professional circuit breaker repair services for homes, apartments, and commercial properties. Our electricians diagnose and repair faulty breakers, tripping circuits, and damaged wiring to ensure your electrical system operates safely.",
@@ -192,7 +192,7 @@ export const services = [
   title: "Ceiling Fan Installation",
   slug: "ceiling-fan-installation",
   icon: Fan,
-  img: "/pic6.webp",
+  img: "/et15.webp",
   text: "Professional ceiling fan installation for improved comfort and energy efficiency.",
   description:
     "We offer safe and professional ceiling fan installation services ensuring secure mounting, proper wiring, and smooth operation.",
@@ -203,7 +203,7 @@ export const services = [
   title: "No Power in Part of House",
   slug: "partial-power-outage-repair",
   icon: Power,
-  img: "/pic6.webp",
+  img: "/e13.webp",
   text: "Fast diagnosis and repair for power loss in specific areas of your home.",
   description:
     "Our electricians identify wiring issues, tripped breakers, or damaged circuits and restore power safely.",
@@ -214,7 +214,7 @@ export const services = [
   title: "Flickering Lights",
   slug: "flickering-lights-repair",
   icon: Lightbulb,
-  img: "/pic6.webp",
+  img: "/et16.webp",
   text: "Reliable repair for flickering or unstable lighting in your home or office.",
   description:
     "We inspect wiring, switches, and circuits to eliminate flickering lights and restore stable illumination.",
@@ -225,7 +225,7 @@ export const services = [
   title: "Overloaded Circuit Breakers",
   slug: "overloaded-circuit-breaker-repair",
   icon: AlertTriangle,
-  img: "/pic6.webp",
+  img: "/et9.webp",
   text: "Professional solutions for overloaded circuits and frequently tripping breakers.",
   description:
     "Our electricians analyze electrical load and provide solutions like circuit balancing or breaker replacement.",
@@ -236,7 +236,7 @@ export const services = [
   title: "Electrical Panel Repair",
   slug: "electrical-panel-repair",
   icon: PanelTop,
-  img: "/pic6.webp",
+  img: "/et5.webp",
   text: "Expert electrical panel repair to maintain safe power distribution.",
   description:
     "We repair damaged panels, faulty breakers, and loose connections to ensure safe electricity flow.",
@@ -258,7 +258,7 @@ export const services = [
   title: "Smoke Detector Installation",
   slug: "smoke-detector-installation",
   icon: Siren,
-  img: "/pic6.webp",
+  img: "/et14.webp",
   text: "Professional smoke detector installation to improve safety and early fire detection.",
   description:
     "Our technicians install and wire smoke detectors correctly to ensure reliable fire detection.",
@@ -269,7 +269,7 @@ export const services = [
   title: "Dimmer Switches",
   slug: "dimmer-switch-installation",
   icon: ToggleLeft,
-  img: "/pic6.webp",
+  img: "/e13.webp",
   text: "Install modern dimmer switches to control lighting brightness and create the perfect ambiance.",
   description:
     "Dimmer switches allow flexible lighting control and help reduce energy consumption.",
@@ -280,7 +280,7 @@ export const services = [
   title: "Annual Electrical Inspection",
   slug: "annual-electrical-inspection",
   icon: ClipboardCheck,
-  img: "/pic6.webp",
+  img: "/et7.webp",
   text: "Comprehensive annual electrical inspections to keep your property safe and compliant.",
   description:
     "We inspect wiring, panels, outlets, and breakers to identify potential electrical hazards early.",
@@ -291,7 +291,7 @@ export const services = [
   title: "Emergency Lighting Installation",
   slug: "emergency-lighting-installation",
   icon: ShieldAlert,
-  img: "/pic6.webp",
+  img: "/e13.webp",
   text: "Professional emergency lighting installation to ensure safety during power outages.",
   description:
     "Emergency lighting systems automatically activate during outages to help occupants safely exit buildings.",
@@ -302,7 +302,7 @@ export const services = [
   title: "Power Outage",
   slug: "power-outage-repair",
   icon: PlugZap,
-  img: "/pic6.webp",
+  img: "/et12.webp",
   text: "Fast troubleshooting and repair for unexpected power outages in your home or business.",
   description:
     "We diagnose electrical failures and restore power quickly and safely.",
