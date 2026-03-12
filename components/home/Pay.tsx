@@ -12,6 +12,8 @@ const paymentMethods = [
   { name: "Apple Pay", logo: "/p5.webp" },
   { name: "Google Pay", logo: "/p4.webp" },
   { name: "Cash", logo: "/p2.webp" },
+  { name: "Pay by card", logo: "/pa1.webp" },
+  { name: "Online transfer ", logo: "/pa2.webp" },
 ];
 
 export default function PaySlider() {
