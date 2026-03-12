@@ -122,8 +122,10 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin size={20} className="text-[#EFAC19] mt-1 shrink-0" />
                 <span className="leading-relaxed">
-                  Unit 1, 187 Parchmore Road, Thornton Heath,
-                  London CR7 8HD, United Kingdom
+                  71-75 Shelton Street﻿, 
+                  Covent Garden,
+                  London
+                  WC2H 9JQ
                 </span>
               </div>
             </div>

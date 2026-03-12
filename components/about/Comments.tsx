@@ -24,15 +24,22 @@ const testimonials: Testimonial[] = [
     id: 2,
     name: "James Carter",
     location: "Downtown London",
-    image: "/img2.webp",
+    image: "/pic7.webp",
     text: `Fast response and very professional team. They fixed our electrical issue in no time. Their NICEIC approval gave us great peace of mind.`,
   },
   {
     id: 3,
     name: "Samantha Lee",
     location: "West Valley",
-    image: "/img2.webp",
+    image: "/pic8.webp",
     text: `Excellent emergency service. Friendly staff and transparent pricing. No hidden fees, even for a late-night call out.`,
+  },
+  {
+    id: 2,
+    name: "Jonathan ",
+    location: "Downtown London",
+    image: "/pic9.webp",
+    text: `Fast response and very professional team. They fixed our electrical issue in no time. Their NICEIC approval gave us great peace of mind.`,
   },
 ];
 
@@ -47,14 +54,14 @@ export default function Comments() {
     setTimeout(() => {
       setCurrent(index);
       setIsFading(false);
-    }, 300); // Shorter duration for better UX
+    }, 100); // Shorter duration for better UX
   };
 
   useEffect(() => {
     const interval = setInterval(() => {
       const next = current === testimonials.length - 1 ? 0 : current + 1;
       triggerNext(next);
-    }, 6000);
+    }, 1700);
     return () => clearInterval(interval);
   }, [current]);
 

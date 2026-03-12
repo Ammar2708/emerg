@@ -5,7 +5,7 @@ import { MapPin, Clock, Phone } from "lucide-react"
 export default function ServiceArea() {
 
   // Your office location
-  const officeLocation = "N15 5BQ, London, UK"
+  const officeLocation = "71-75 Shelton St, London WC2H 9JQ, UK"
 
   // Service areas
   const areas = [
@@ -20,12 +20,10 @@ export default function ServiceArea() {
   // Function to open directions from office → selected area
   const openDirections = (area: string) => {
     const destination = `${area}, London, UK`
-
     const url =
       `https://www.google.com/maps/dir/?api=1` +
       `&origin=${encodeURIComponent(officeLocation)}` +
       `&destination=${encodeURIComponent(destination)}`
-
     window.open(url, "_blank")
   }
 
@@ -134,7 +132,7 @@ export default function ServiceArea() {
           <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-white relative min-h-[400px]">
 
             <iframe
-              src="https://www.google.com/maps?q=N15%205BQ&output=embed"
+              src="https://www.google.com/maps?q=71-75+Shelton+St,+London+WC2H+9JQ,+UK&output=embed"
               className="absolute inset-0 w-full h-full grayscale-[0.2] contrast-[1.1]"
               style={{ border: 0 }}
               allowFullScreen
@@ -159,4 +157,3 @@ export default function ServiceArea() {
     </section>
   )
 }
-
