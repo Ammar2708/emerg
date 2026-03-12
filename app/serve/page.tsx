@@ -13,8 +13,8 @@ export default function ServiceArea() {
     "Thornton Heath", "Croydon", "Streatham", "Brixton",
     "Battersea", "Putney", "Wimbledon", "Richmond",
     "Kingston", "Chelsea", "Fulham", "Kensington",
-    "St Albans", "Watford", "Chelmsford", "Harrow",
-    "Barnet", "Enfield", "Merton", "Sutton",
+    "Chelmsford", "Harrow", "Action", "Fulham", "Tooting",
+    "Barnet", "Merton", "Sutton",
   ]
 
   // Function to open directions from office → selected area
