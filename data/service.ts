@@ -21,9 +21,10 @@ import {
   ToggleLeft,
   ClipboardCheck,
   ShieldAlert,
-  
+  WashingMachine,
+   ShowerHead,
   PlugZap,
-  Wrench, Flame
+  Wrench, Flame,Lock
   
 } from "lucide-react";
 
@@ -354,6 +355,56 @@ export const services = [
       "We install and maintain reliable fire alarm systems to protect homes and businesses. Our service includes smoke detector installation, alarm system upgrades, wiring checks, and testing to ensure full compliance with safety standards. Early detection systems provide critical warning and enhance overall building safety.",
     certification: "Safety Compliance Certified",
   },
-
+   {
+    title: "BMS Systems",
+    slug: "bms-systems",
+    icon: Construction,
+    img: "/o16.webp",
+    text: "Automated building management and utility optimization.",
+    description: "The 'brain' of your building. We design and install Building Management Systems (BMS) that centralize control of lighting, heating, and security. By using logic-based automation, we significantly reduce energy waste and provide real-time monitoring of your property’s vital infrastructure via a single interface.",
+    
+    certification: "KNX / Trend Certified Partner"
+  },
+  {
+    title: "Door Entry Systems",
+    slug: "door-entry-systems",
+    icon: Lock,
+    img: "/o10.webp",
+    text: "Secure audio/video intercom and fob access.",
+    description: "Sophisticated access control for multi-unit residential blocks and commercial offices. We install vandal-resistant IP intercoms with smartphone integration, allowing you to view and grant access to visitors remotely, combined with encrypted fob readers to ensure only authorized personnel enter the premises.",
+    
+    certification: "SSAIB Security Certified"
+  },
+  {
+    title: "Additional Sockets",
+    slug: "additional-sockets",
+    icon: Plug,
+    img: "/et22.webp",
+    text: "Install extra power sockets for convenience and safety.",
+    description:
+      "We install additional plug sockets in homes and offices to improve accessibility and reduce reliance on extension leads. Our electricians ensure proper wiring, safe load distribution, and neat flush mounting so your new sockets blend perfectly with your interior while meeting electrical safety standards.",
+    certification: "Minor Works Certified",
+  },
+  {
+    title: "Domestic Appliance",
+    slug: "domestic-appliance-installation",
+    icon: WashingMachine,
+    img: "/et23.webp",
+    text: "Safe electrical connections for household appliances.",
+    description:
+      "Professional installation and electrical connection for domestic appliances such as washing machines, ovens, dishwashers, and cookers. We ensure all appliances are correctly wired, properly isolated, and safely integrated into your home's electrical system for reliable everyday use.",
+    certification: "Electrical Safety Certified",
+  },
+  
+  {
+    title: "Security Lighting",
+    slug: "security-lighting",
+    icon: Lightbulb,
+    img: "/et25.webp",
+    text: "Outdoor lighting solutions for safety and protection.",
+    description:
+      "Enhance your property's security with professionally installed outdoor and motion-sensor lighting. We install energy-efficient LED security lights, PIR motion sensors, and weather-protected wiring to illuminate entrances, driveways, and gardens while deterring unwanted activity.",
+    certification: "Outdoor Electrical Certified",
+  },
 ];
 

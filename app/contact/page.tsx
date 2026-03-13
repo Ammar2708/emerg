@@ -160,7 +160,7 @@ export default function Page() {
                 <ShieldCheck className="text-[#EFAC19] mt-1 shrink-0" />
                 <div>
                   <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Accreditation</p>
-                  <p className="text-sm sm:text-base font-medium">NICEIC Approved Contractor</p>
+                  <p className="text-sm sm:text-base font-medium"><span className='text-red-600'>NICEIC</span> Approved Contractor</p>
                 </div>
               </div>
             </div>

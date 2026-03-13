@@ -5,16 +5,15 @@ import {
   Home,
   Wind,
   Fan,
-  FileCheck,
-  HardHat,
-  Droplets,
-  Lock,
   Flame,
-  Activity,
-  RefreshCw,
-  Plug,
-  ShieldCheck,
-  Construction
+  Snowflake,
+   AirVent,
+    Slash,
+    Wrench,
+    Zap,
+    
+
+  ShowerHead,
 } from "lucide-react";
 
 export const otherServices = [
@@ -69,19 +68,19 @@ export const otherServices = [
    
     certification: "Building Regs Doc F Compliant"
   },
- 
+ {
+    title: "Power Shower Installation",
+    slug: "power-shower-installation",
+    icon: ShowerHead,
+    img: "/et24.webp",
+    text: "Electrical installation for powerful and efficient showers.",
+    description:
+      "We install and connect power showers with dedicated electrical circuits to ensure consistent performance and safety. Our electricians handle proper wiring, isolation switches, and load protection to ensure your shower operates efficiently and safely.",
+    certification: "Bathroom Electrical Certified",
+  },
   
  
-  {
-    title: "Door Entry Systems",
-    slug: "door-entry-systems",
-    icon: Lock,
-    img: "/o10.webp",
-    text: "Secure audio/video intercom and fob access.",
-    description: "Sophisticated access control for multi-unit residential blocks and commercial offices. We install vandal-resistant IP intercoms with smartphone integration, allowing you to view and grant access to visitors remotely, combined with encrypted fob readers to ensure only authorized personnel enter the premises.",
-    
-    certification: "SSAIB Security Certified"
-  },
+  
   {
     title: "Immersion Heaters",
     slug: "immersion-heaters",
@@ -92,18 +91,78 @@ export const otherServices = [
    
     certification: "Part P Electrical Safety"
   },
-  
- 
- 
-  
   {
-    title: "BMS Systems",
-    slug: "bms-systems",
-    icon: Construction,
-    img: "/o16.webp",
-    text: "Automated building management and utility optimization.",
-    description: "The 'brain' of your building. We design and install Building Management Systems (BMS) that centralize control of lighting, heating, and security. By using logic-based automation, we significantly reduce energy waste and provide real-time monitoring of your property’s vital infrastructure via a single interface.",
-    
-    certification: "KNX / Trend Certified Partner"
+    title: "Frozen Pipes",
+    slug: "frozen-pipes",
+    icon: Snowflake,
+    img: "/ot10.webp",
+    text: "Thaw and protect your pipes during cold weather.",
+    description:
+      "We diagnose and safely thaw frozen pipes to restore water flow. Our team also recommends insulation solutions and preventive measures to minimize the risk of future freezing, keeping your plumbing functional during winter.",
+    certification: "Plumbing Safety Certified",
   },
+  {
+    title: "Trapped Air in Pipes",
+    slug: "trapped-air-pipes",
+    icon: AirVent,
+    img: "/ot9.webp",
+    text: "Eliminate airlocks to restore proper water flow.",
+    description:
+      "We remove trapped air from your plumbing systems, ensuring consistent water pressure and eliminating noisy taps or gurgling pipes. Our experts use safe venting techniques to maintain your system’s efficiency.",
+    certification: "Plumbing Safety Certified",
+  },
+  {
+    title: "System Blockages",
+    slug: "system-blockages",
+    icon: Slash,
+    img: "/ot13.webp",
+    text: "Clear blockages and restore plumbing efficiency.",
+    description:
+      "We identify and remove blockages in pipes and drainage systems. Using professional tools and techniques, we ensure smooth water flow and prevent future clogs while maintaining plumbing safety standards.",
+    certification: "Plumbing Safety Certified",
+  },
+  {
+    title: "Broken Pipes",
+    slug: "broken-pipes",
+    icon: Zap,
+    img: "/ot8.webp",
+    text: "Repair broken or leaking pipes quickly and safely.",
+    description:
+      "Our electricians and plumbers repair damaged pipes, stopping leaks and preventing water damage. We provide durable, compliant repairs to restore your plumbing system’s reliability.",
+    certification: "Plumbing Safety Certified",
+  },
+  {
+    title: "Flooring Carpentry",
+    slug: "flooring-carpentry",
+    icon: Hammer,
+    img: "/ot14.webp",
+    text: "Expert carpentry for flooring and structural repairs.",
+    description:
+      "We offer professional carpentry services for flooring installation, repair, and structural modifications. Our team ensures durable workmanship and precise finishes to enhance both function and aesthetics of your property.",
+    certification: "Carpentry Certified",
+  },
+  {
+    title: "Building Maintenance",
+    slug: "building-maintenance",
+    icon: Wrench,
+    img: "/ot16.webp",
+    text: "Comprehensive maintenance for homes and businesses.",
+    description:
+      "We provide a full range of building maintenance services including repairs, installations, and preventive care. Our goal is to keep your property safe, functional, and in excellent condition year-round.",
+    certification: "Maintenance Certified",
+  },
+  {
+    title: "Bathroom Repairing",
+    slug: "bathroom-repairing",
+    icon: ShowerHead,
+    img: "/ot17.webp",
+    text: "Complete bathroom repair and refurbishment services.",
+    description:
+      "We handle repairs, upgrades, and refurbishment of bathrooms. From fixing leaks to installing showers and fittings, our team ensures safety, functionality, and a polished finish for every bathroom project.",
+    certification: "Bathroom Electrical & Plumbing Certified",
+  },
+ 
+ 
+  
+ 
 ];

@@ -38,7 +38,7 @@ const Hero = () => {
               </p>
 
               <p>
-                Our team of **NICEIC approved**, licensed, and experienced technicians is available 24/7
+                Our team of **<span className="text-red-600">NICEIC </span> approved**, licensed, and experienced technicians is available 24/7
                 to provide fast, reliable solutions when you need them most. We
                 pride ourselves on transparent pricing, quality workmanship, and
                 exceptional customer service.
