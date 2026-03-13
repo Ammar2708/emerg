@@ -24,7 +24,7 @@ const Hero = () => {
           </p>
 
           <p className="text-base md:text-xl lg:text-2xl text-[#b9b9bf] leading-relaxed">
-            Licensed professionals arrive within 45 minutes. No hidden fees,
+            Licensed professionals arrive within 45 minutes. 
             transparent pricing and emergency service you can trust.
           </p>
 

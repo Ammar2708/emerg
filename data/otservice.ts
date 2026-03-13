@@ -18,16 +18,7 @@ import {
 } from "lucide-react";
 
 export const otherServices = [
-  {
-    title: "Heating Installation",
-    slug: "heating-installation",
-    icon: Thermometer,
-    img: "/o1.webp",
-    text: "Expert central heating and smart thermostat setups.",
-    description: "High-efficiency thermal solutions ranging from full central heating system design to localized radiator upgrades. We specialize in integrating smart climate controls like Nest and Hive, ensuring your heating system operates at peak energy efficiency while providing consistent, programmable warmth across all zones of your property.",
-   
-    certification: "Gas Safe & NICEIC Integrated"
-  },
+
   {
     title: "CCTV Surveys",
     slug: "cctv-surveys",
@@ -78,36 +69,9 @@ export const otherServices = [
    
     certification: "Building Regs Doc F Compliant"
   },
-  {
-    title: "EICR Reports",
-    slug: "eicr-reports",
-    icon: FileCheck,
-    img: "/o7.webp",
-    text: "Official electrical safety compliance for landlords.",
-    description: "A comprehensive 'MOT' for your electrical system. Our EICR inspections involve dead-testing and live-testing of every circuit to identify 'C1' (Danger Present) and 'C2' (Potentially Dangerous) faults. Essential for legal rental compliance, providing a detailed breakdown of your installation's safety status.",
-   
-    certification: "NICEIC Approved Inspector"
-  },
-  {
-    title: "NICEIC Installers",
-    slug: "niceic-installers",
-    icon: HardHat,
-    img: "/et7.webp",
-    text: "Accredited electrical installations to UK standards.",
-    description: "Verified electrical works performed by Platinum-level NICEIC contractors. This ensures all work is self-certified to Part P of the Building Regulations and is covered by the NICEIC Platinum Promise, giving you total peace of mind that your installation meets the highest safety benchmarks in the UK.",
-    
-    certification: "NICEIC Approved Contractor"
-  },
-  {
-    title: "Electric Boilers",
-    slug: "electric-boilers",
-    icon: Droplets,
-    img: "/o9.webp",
-    text: "Silent, energy-efficient electric boiler installs.",
-    description: "The modern alternative to gas. Electric boilers are 99% efficient and eliminate the risk of Carbon Monoxide. Perfect for apartments and properties without a gas supply, our installations focus on rapid hot water recovery times and integration with existing wet heating systems for a seamless transition to electric.",
-    
-    certification: "G3 Unvented Hot Water"
-  },
+ 
+  
+ 
   {
     title: "Door Entry Systems",
     slug: "door-entry-systems",
@@ -128,46 +92,10 @@ export const otherServices = [
    
     certification: "Part P Electrical Safety"
   },
-  {
-    title: "Tripping Circuits",
-    slug: "tripping-circuits",
-    icon: Activity,
-    img: "/o12.webp",
-    text: "Expert diagnostic fault-finding for RCD trips.",
-    description: "Persistent circuit tripping is a sign of an underlying safety issue. Using insulation resistance testers and earth leakage clamps, we pinpoint whether the trip is caused by a faulty appliance, dampness in the circuit, or a degraded consumer unit, providing a permanent fix rather than a temporary reset.",
-    
-    certification: "Advanced Diagnostic Specialist"
-  },
-  {
-    title: "Full Rewiring",
-    slug: "full-rewiring",
-    icon: RefreshCw,
-    img: "/o13.webp",
-    text: "Complete removal of outdated wiring systems.",
-    description: "Total replacement of legacy wiring with modern, safe alternatives. We strip out old rubber or lead cables and install multi-core PVC-sheathed wiring, modernizing your switches, sockets, and consumer units to handle the electrical demands of 21st-century living while ensuring full fire safety compliance.",
-    
-    certification: "18th Edition Full Rewire"
-  },
-  {
-    title: "Sockets & Switches",
-    slug: "sockets-switches",
-    icon: Plug,
-    img: "/o14.webp",
-    text: "Modern power point and switch additions.",
-    description: "Upgrading your interface with power. We install decorative brushed-steel or matte-black sockets and touch-sensitive switches. All installations include deep-backbox fitting to ensure flush mounting and secondary earth bonding for metal faceplates, combining high-end design with robust electrical safety.",
-   
-    certification: "Minor Works Certified"
-  },
-  {
-    title: "PAT Testing",
-    slug: "pat-testing",
-    icon: ShieldCheck,
-    img: "/o15.webp",
-    text: "Portable appliance safety testing for businesses.",
-    description: "Statutory safety testing of all plug-in appliances. We utilize calibrated PAT testers to check earth leakage and insulation on everything from office laptops to industrial kitchen equipment, providing you with a full asset register and pass/fail labels to satisfy HSE and insurance requirements.",
-    
-    certification: "IET Code of Practice Standard"
-  },
+  
+ 
+ 
+  
   {
     title: "BMS Systems",
     slug: "bms-systems",

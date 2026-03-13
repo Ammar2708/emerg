@@ -35,7 +35,7 @@ const Footer = () => {
           <div>
             <Image src="/logo.png" alt="Logo" width={180} height={80} />
             <p className="mt-4 text-sm leading-relaxed text-gray-300">
-              We have NICEIC qualified electricians providing fast,
+              We have <span className="text-red-600"> NICEIC</span> qualified electricians providing fast,
               dependable 24/7 service across London.
             </p>
           </div>

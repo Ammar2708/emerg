@@ -3,6 +3,7 @@ import {
   Settings,
   Lightbulb,
   Home,
+  Droplets,
   Plug,
   FileCheck,
   Car,
@@ -20,7 +21,10 @@ import {
   ToggleLeft,
   ClipboardCheck,
   ShieldAlert,
-  PlugZap
+  
+  PlugZap,
+  Wrench, Flame
+  
 } from "lucide-react";
 
 export const services = [
@@ -35,16 +39,7 @@ export const services = [
     
     certification: "NICEIC / Part P Compliant"
   },
-  {
-    title: "Electrical Repairs & Fault Finding",
-    slug: "electrical-repairs",
-    icon: Settings,
-    img: "et9.webp",
-    text: "Rapid fault finding and electrical repairs.",
-    description:
-      "When power fails, safety is the immediate priority. Our rapid-response repair team utilizes advanced diagnostic equipment, including thermal imaging and circuit tracing, to identify hidden faults—such as degraded insulation, loose neutral connections, or overloaded breakers—that standard visual inspections miss. We provide an immediate diagnostic report and on-the-spot repairs to eliminate fire hazards and restore your property’s power with minimal downtime, available 24 hours a day for true emergencies.",
-       certification: "Certified Fault-Finding Specialist"
-  },
+  
   {
     title: "Lighting Design & Repair",
     slug: "lighting-repair",
@@ -137,7 +132,7 @@ export const services = [
   title: "CCTV Installation",
   slug: "cctv-installation",
   icon: Camera,
-  img: "/ot2.webp",
+  img: "/et18.webp",
   text: "Professional CCTV camera installation to protect your home or business.",
   description:
     "We provide professional CCTV installation services for homes, offices, shops, and commercial properties. Our experienced technicians design and install high-quality surveillance systems that allow you to monitor your property 24/7. We install indoor and outdoor security cameras with clear HD recording, remote mobile viewing, motion detection, and secure storage. Our systems help deter intruders, improve safety, and give you complete peace of mind knowing your property is protected at all times.",
@@ -203,7 +198,7 @@ export const services = [
   title: "No Power in Part of House",
   slug: "partial-power-outage-repair",
   icon: Power,
-  img: "/e13.webp",
+  img: "/et19.webp",
   text: "Fast diagnosis and repair for power loss in specific areas of your home.",
   description:
     "Our electricians identify wiring issues, tripped breakers, or damaged circuits and restore power safely.",
@@ -247,7 +242,7 @@ export const services = [
   title: "LED Upgrade",
   slug: "led-upgrade",
   icon: Lamp,
-  img: "/pic6.webp",
+  img: "/et20.webp",
   text: "Upgrade your lighting to energy-efficient LED solutions for better brightness and lower power bills.",
   description:
     "We replace outdated lighting with modern LED systems that save energy and improve brightness.",
@@ -269,7 +264,7 @@ export const services = [
   title: "Dimmer Switches",
   slug: "dimmer-switch-installation",
   icon: ToggleLeft,
-  img: "/e13.webp",
+  img: "/et13.webp",
   text: "Install modern dimmer switches to control lighting brightness and create the perfect ambiance.",
   description:
     "Dimmer switches allow flexible lighting control and help reduce energy consumption.",
@@ -302,12 +297,63 @@ export const services = [
   title: "Power Outage",
   slug: "power-outage-repair",
   icon: PlugZap,
-  img: "/et12.webp",
+  img: "/et21.webp",
   text: "Fast troubleshooting and repair for unexpected power outages in your home or business.",
   description:
     "We diagnose electrical failures and restore power quickly and safely.",
  
   certification: "Certified Electrical Fault Diagnosis"
-}
+},
+{
+    title: "Heating Installation",
+    slug: "heating-installation",
+    icon: Thermometer,
+    img: "/o1.webp",
+    text: "Expert central heating and smart thermostat setups.",
+    description: "High-efficiency thermal solutions ranging from full central heating system design to localized radiator upgrades. We specialize in integrating smart climate controls like Nest and Hive, ensuring your heating system operates at peak energy efficiency while providing consistent, programmable warmth across all zones of your property.",
+   
+    certification: "Gas Safe & NICEIC Integrated"
+  },
+   {
+    title: "Electric Boilers",
+    slug: "electric-boilers",
+    icon: Droplets,
+    img: "/o9.webp",
+    text: "Silent, energy-efficient electric boiler installs.",
+    description: "The modern alternative to gas. Electric boilers are 99% efficient and eliminate the risk of Carbon Monoxide. Perfect for apartments and properties without a gas supply, our installations focus on rapid hot water recovery times and integration with existing wet heating systems for a seamless transition to electric.",
+    
+    certification: "G3 Unvented Hot Water"
+  },
+   {
+    title: "Sockets & Switches",
+    slug: "sockets-switches",
+    icon: Plug,
+    img: "/o14.webp",
+    text: "Modern power point and switch additions.",
+    description: "Upgrading your interface with power. We install decorative brushed-steel or matte-black sockets and touch-sensitive switches. All installations include deep-backbox fitting to ensure flush mounting and secondary earth bonding for metal faceplates, combining high-end design with robust electrical safety.",
+   
+    certification: "Minor Works Certified"
+  },
+ {
+    title: "Electrical Repair & Fault Finding",
+    slug: "electrical-repair-fault-finding",
+    icon: Wrench,
+    img: "/et9.webp",
+    text: "Diagnosing and fixing electrical faults quickly and safely.",
+    description:
+      "Our electricians specialize in identifying and repairing electrical issues such as power outages, tripping circuits, faulty wiring, and malfunctioning switches or sockets. Using professional diagnostic tools, we locate faults efficiently and carry out safe, compliant repairs to restore reliable power throughout your property.",
+    certification: "Minor Works Certified",
+  },
+  {
+    title: "Fire Alarm",
+    slug: "fire-alarm",
+    icon: Flame,
+    img: "/et17.webp",
+    text: "Professional fire alarm installation and maintenance.",
+    description:
+      "We install and maintain reliable fire alarm systems to protect homes and businesses. Our service includes smoke detector installation, alarm system upgrades, wiring checks, and testing to ensure full compliance with safety standards. Early detection systems provide critical warning and enhance overall building safety.",
+    certification: "Safety Compliance Certified",
+  },
+
 ];
 

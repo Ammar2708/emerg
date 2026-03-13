@@ -91,18 +91,23 @@ export default async function ServiceDetails({
 
           {/* Quick Stats Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-12">
-            {[
-              "NICEIC Member",
-              "Response in < 45 Mins",
-              "No Hidden Call-out Fees",
-              
-            ].map((item) => (
-              <div key={item} className="flex items-center gap-3 p-5 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                <CheckCircle2 className="text-[#EFAC19] shrink-0" size={24} />
-                <span className="font-bold text-gray-800 italic uppercase text-sm tracking-wide">{item}</span>
-              </div>
-            ))}
-          </div>
+  {[
+    <>
+      <span className="text-red-600">NICEIC</span> Member
+    </>,
+    "Response in < 45 Mins",
+  ].map((item, index) => (
+    <div
+      key={index}
+      className="flex items-center gap-3 p-5 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
+    >
+      <CheckCircle2 className="text-[#EFAC19] shrink-0" size={24} />
+      <span className="font-bold text-gray-800 italic uppercase text-sm tracking-wide">
+        {item}
+      </span>
+    </div>
+  ))}
+</div>
 
           {/* Emergency Call Action */}
           <div className="bg-gray-900 rounded-[2.5rem] p-3 flex flex-col md:flex-row items-center shadow-2xl ring-1 ring-white/10">
