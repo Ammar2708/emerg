@@ -25,6 +25,8 @@ const Navbar = () => {
             <Clock size={14} className="text-[#EFAC19]" /> 
             24/7 Emergency Response London
           </span>
+          <div className="ml-70 text-xl"
+          ><span className="text-red-600"> NICEIC</span> <span className="text-yellow-500">Qulified</span> <span className="text-white">Eletriction</span></div>
         </div>
         <div className="flex items-center gap-4">
           <a href="mailto:info@hscaeltd.co.uk" className="hover:text-white transition">

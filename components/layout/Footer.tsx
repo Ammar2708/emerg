@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-20 py-12">
           <div className="flex flex-wrap justify-center lg:justify-between items-center gap-8">
 
-            {["/a2.webp", "/a3.webp", "/a4.webp", "/a6.webp"].map((logo, i) => (
+            {["/a2.webp", "/a3.webp", "/a4.webp"].map((logo, i) => (
               <Image
                 key={i}
                 src={logo}
@@ -35,7 +35,7 @@ const Footer = () => {
           <div>
             <Image src="/logo.png" alt="Logo" width={180} height={80} />
             <p className="mt-4 text-sm leading-relaxed text-gray-300">
-              We have <span className="text-red-600"> NICEIC</span> qualified electricians providing fast,
+              We have <span className="text-red-600"> NICEIC</span> <span className="text-yellow-500">qulified</span> <span className="text-white">eletriction</span> providing fast,
               dependable 24/7 service across London.
             </p>
           </div>

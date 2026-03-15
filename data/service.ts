@@ -40,17 +40,26 @@ export const services = [
     
     certification: "NICEIC / Part P Compliant"
   },
-  
   {
-    title: "Lighting Design & Repair",
-    slug: "lighting-repair",
-    icon: Lightbulb,
-    img: "/et1.webp",
-    text: "Repair internal and external lighting.",
+  title: "RCD Tripping",
+  slug: "rcd-tripping",
+  icon: Plug,
+  img: "/et6.webp",
+  text: "Fast diagnosis and repair for frequently tripping RCD circuits.",
+  description:
+    "If your RCD keeps tripping, it usually means there is a fault in your electrical system such as a damaged appliance, faulty wiring, or moisture in circuits. Our qualified electricians quickly diagnose the cause of RCD tripping using professional testing equipment. We identify the faulty circuit or appliance and safely resolve the issue, restoring power and ensuring your electrical system remains fully protected against shocks and electrical fires.",
+  
+  certification: "NICEIC Approved Electrical Testing"
+},
+ {
+    title: "Electrical Repair & Fault Finding",
+    slug: "electrical-repair-fault-finding",
+    icon: Wrench,
+    img: "/et9.webp",
+    text: "Diagnosing and fixing electrical faults quickly and safely.",
     description:
-      "Expert restoration and optimization of indoor and outdoor lighting systems. We solve complex issues ranging from flickering LED arrays and faulty ballast units to compromised external security lighting systems. Beyond simple repairs, we provide modern energy-efficiency audits, replacing power-hungry legacy fixtures with high-output, low-consumption smart lighting solutions. This not only restores visibility but significantly enhances the security and aesthetic value of your property while lowering utility costs.",
-    
-    certification: "Internal & External Certified"
+      "Our electricians specialize in identifying and repairing electrical issues such as power outages, tripping circuits, faulty wiring, and malfunctioning switches or sockets. Using professional diagnostic tools, we locate faults efficiently and carry out safe, compliant repairs to restore reliable power throughout your property.",
+    certification: "Minor Works Certified",
   },
   {
     title: "Power Socket Solutions",
@@ -63,17 +72,7 @@ export const services = [
    
     certification: "Load-Balanced Installation"
   },
-  {
-    title: "Professional PAT Testing",
-    slug: "pat-testing",
-    icon: FileCheck,
-    img: "/et3.webp",
-    text: "Portable Appliance Testing services.",
-    description:
-      "Comprehensive safety compliance for businesses, landlords, and educational facilities. Our Portable Appliance Testing (PAT) goes beyond a simple visual check; we perform earth continuity, insulation resistance, and lead polarity tests to ensure every device is safe for use. Upon completion, you receive a digital asset register and a formal Certificate of Compliance, which is essential for maintaining insurance validity and meeting statutory Health & Safety obligations in the workplace.",
-   
-    certification: "IET Code of Practice Standard"
-  },
+  
   {
     title: "Full Property Rewiring",
     slug: "full-rewiring",
@@ -96,17 +95,7 @@ export const services = [
  
   certification: "18th Edition Consumer Unit Installation"
 },
-{
-  title: "RCD Tripping",
-  slug: "rcd-tripping",
-  icon: Plug,
-  img: "/et6.webp",
-  text: "Fast diagnosis and repair for frequently tripping RCD circuits.",
-  description:
-    "If your RCD keeps tripping, it usually means there is a fault in your electrical system such as a damaged appliance, faulty wiring, or moisture in circuits. Our qualified electricians quickly diagnose the cause of RCD tripping using professional testing equipment. We identify the faulty circuit or appliance and safely resolve the issue, restoring power and ensuring your electrical system remains fully protected against shocks and electrical fires.",
-  
-  certification: "NICEIC Approved Electrical Testing"
-},
+
 {
   title: "EICR (Electrical Installation Condition Report)",
   slug: "electrical-installation-condition-report",
@@ -141,6 +130,17 @@ export const services = [
   certification: "Professional Security System Installation"
 },
 {
+    title: "Professional PAT Testing",
+    slug: "pat-testing",
+    icon: FileCheck,
+    img: "/et3.webp",
+    text: "Portable Appliance Testing services.",
+    description:
+      "Comprehensive safety compliance for businesses, landlords, and educational facilities. Our Portable Appliance Testing (PAT) goes beyond a simple visual check; we perform earth continuity, insulation resistance, and lead polarity tests to ensure every device is safe for use. Upon completion, you receive a digital asset register and a formal Certificate of Compliance, which is essential for maintaining insurance validity and meeting statutory Health & Safety obligations in the workplace.",
+   
+    certification: "IET Code of Practice Standard"
+  },
+{
   title: "Thermostat Installation",
   slug: "thermostat-installation",
   icon: Thermometer,
@@ -151,6 +151,17 @@ export const services = [
   
   certification: "Professional Electrical Heating Control Installation"
 },
+ {
+    title: "Lighting Design & Repair",
+    slug: "lighting-repair",
+    icon: Lightbulb,
+    img: "/et1.webp",
+    text: "Repair internal and external lighting.",
+    description:
+      "Expert restoration and optimization of indoor and outdoor lighting systems. We solve complex issues ranging from flickering LED arrays and faulty ballast units to compromised external security lighting systems. Beyond simple repairs, we provide modern energy-efficiency audits, replacing power-hungry legacy fixtures with high-output, low-consumption smart lighting solutions. This not only restores visibility but significantly enhances the security and aesthetic value of your property while lowering utility costs.",
+    
+    certification: "Internal & External Certified"
+  },
 {
   title: "Electric Underfloor Heating Installations",
   slug: "electric-underfloor-heating-installations",
@@ -335,16 +346,7 @@ export const services = [
    
     certification: "Minor Works Certified"
   },
- {
-    title: "Electrical Repair & Fault Finding",
-    slug: "electrical-repair-fault-finding",
-    icon: Wrench,
-    img: "/et9.webp",
-    text: "Diagnosing and fixing electrical faults quickly and safely.",
-    description:
-      "Our electricians specialize in identifying and repairing electrical issues such as power outages, tripping circuits, faulty wiring, and malfunctioning switches or sockets. Using professional diagnostic tools, we locate faults efficiently and carry out safe, compliant repairs to restore reliable power throughout your property.",
-    certification: "Minor Works Certified",
-  },
+ 
   {
     title: "Fire Alarm",
     slug: "fire-alarm",

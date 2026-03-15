@@ -22,7 +22,7 @@ export default function Page() {
     setIsPending(true);
 
     emailjs.sendForm(
-      'service_m9c3rsn', 
+      'service_ckowixn', 
       'template_5vy3qqk', 
       form.current, 
       '3R2aN4QZ5TNoPtPTP'
